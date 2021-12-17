@@ -9,7 +9,7 @@ CFonts.say('RO-BOT', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`HAI RONOVE:)`, {
+CFonts.say(`HAI Faiz:)`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
