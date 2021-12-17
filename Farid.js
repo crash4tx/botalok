@@ -55,9 +55,9 @@ const lolkey = '0b0ffba94f2b803b88721e4f'
 
 hargalimit = "100"
 limitawal = "20"
-namabot = "FIKK-BOT"
-namaowner = "Ronove"
-nomerowner = '6285345047847'
+namabot = "Angel Botz"
+namaowner = "Faiz"
+nomerowner = '6285157793684'
 gamewaktu = "30"
 leave = 'sayonara'
 f = ' ⑅⃝🐋'
@@ -334,7 +334,7 @@ console.log(color('⸨ ','white'),color('∆','red'),color('⸩','white'),color(
         success('2', '■■■■■■■■■■ 100%')
   console.log(color(`HAI ${namaowner + ' ' + ucapWaktu}`,'white'))
  console.log(color(`${namabot} TELAH SUKSES TERSAMBUNG!`,'white'))
- console.log(color(`MUZZA-BOTZ RECODE BY RONOVE`,'blue'))
+ console.log(color(`Angel bot RECODE BY Faiz`,'blue'))
  })         
       
   await client.connect({timeoutMs: 30*1000})
@@ -350,7 +350,7 @@ client.on('group-participants-update', async (anu) => {
 if (anu.action == 'add') {
 if (anu.participants[0] === client.user.jid){
 client.updatePresence(anu.jid, Presence.composing)
-client.sendMessage(anu.jid, `Hai, Aku ${namabot}. Ketik #menu Untuk Menampilkan Menu Yang Ada Di Dalam List Menu ${namabot}`, MessageType.text)
+client.sendMessage(anu.jid, `Hai, Aku ${namabot} Siap Membantuk kalian. Ketik #menu Untuk Menampilkan Menu Yang Ada Di Dalam List Menu ${namabot}`, MessageType.text)
 }}
 if (!welkom.includes(anu.jid)) return
 const mdata = await client.groupMetadata(anu.jid)
@@ -1189,7 +1189,7 @@ teks = `┏━━━━━━━ •
 *┃┃* script bot ini di susun
 *┃┃* oleh org dibawah ini :V
 *┃┣━━━━━━━━*
-*┃┃✙◗ _Ronove_*
+*┃┃✙◗ _Faiz_*
 *┃┗━━━━━━━━*
 *┃✙◗ thanx to Allah*
 *┃✙◗ thanx to sa'ad sensei*
@@ -1239,7 +1239,7 @@ let wel = client.prepareMessageFromContent(from, {
 *┃┃* script bot ini di susun
 *┃┃* oleh org dibawah ini :V
 *┃┣━━━━━━━━*
-*┃┃✙◗ _Ronove_*
+*┃┃✙◗ _Faiz_*
 *┃┗━━━━━━━━*
 *┃✙◗ thanx to Allah*
 *┃✙◗ thanx to sa'ad sensei*
